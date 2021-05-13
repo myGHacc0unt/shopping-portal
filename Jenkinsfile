@@ -24,13 +24,12 @@ pipeline {
         archiveArtifacts '**/distribution/*.zip'
       }
     }
-    
+  }
+
     post{
         always{
             echo 'this pipeline is for shopping-portal application... on Thu 13-May-2021 at 16:35:00 EDT'
         }
         
     }
-
-  }
 }
