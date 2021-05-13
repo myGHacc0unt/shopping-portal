@@ -28,7 +28,7 @@ pipeline{
     
     post{
         always{
-            echo 'this pipeline is for shopping-portal application... on Wed 13-May-2021 at 15:55:00 EDT'
+            echo 'this pipeline is for shopping-portal application... on Thu 13-May-2021 at 16:10:00 EDT'
         }
         
     }
